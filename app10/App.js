@@ -101,7 +101,7 @@ export default function App(){
       >
         {moeda1Item}
       </Picker>
-      <br/>
+ 
 
       <Text style={styles.texto2}> Para: </Text>
       <Picker
@@ -111,11 +111,10 @@ export default function App(){
         {moeda2Item}
       </Picker>
 
-      <br/>
+  
 
       <Button title="Converter" onPress={cadastrar} />
 
-      <br/>
 
       <Text style={styles.texto}> {resultado} </Text>
       </View>
